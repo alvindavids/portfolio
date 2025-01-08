@@ -1,0 +1,59 @@
+/* <!-- color: #fec544; --> */
+*{
+    background-color: black;
+}
+.navbar{
+    border-bottom: 1px solid #fec544;   
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    gap: 5;
+}
+.nav-link{
+    color: aliceblue;
+    font-weight: bold;
+}
+.navbar a:hover{
+   color:#fec544; 
+}
+.navbar li :active{
+    color: blue;
+}
+
+
+.img-pro{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    box-shadow: 2px 3px 5px #fec544;
+    cursor: pointer;
+}
+.img-pro:hover{ 
+    box-shadow: 4px 5px 6px #fec544;
+    transform: scale(1.02);
+}
+section{
+    min-height: 40vh;
+    scroll-margin: 75px;
+    padding: 20px;
+    margin: 30px;
+}
+section h1{
+    text-align: center;
+    
+}
+
+#contact i {
+    padding: 10px;
+    cursor: pointer;
+}
+.skill-pro:hover{
+    box-shadow: 4px 5px 6px #fec544;
+    transform: scale(1.02);
+}
+#projects #pro-content{
+    padding: 0px 10px;
+    box-shadow: 0px 0px 5px white ;
+    border-radius: 10px;
+    border-color: #fec544;
+}
